@@ -1,0 +1,911 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(15, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    height: 55px;
+    width: 140px;
+    background-color: black;
+    border: 2px solid black ;
+    position: relative;
+    left: 8px;
+    top: 3px;
+    background-image: url(amazonlogo3.webp);
+    background-size: cover;
+    background-position: 50%;
+    cursor: pointer;
+     
+}
+#logo:hover{
+    border-color: white;
+}
+#location{
+    height: 50px;
+    width: 89px;
+    background-color: black;
+    border: 2px solid black ;
+    position: relative;
+    top: 5px;
+    display: flex;
+    cursor: pointer;
+}
+#location:hover{
+    border-color: white;
+}
+#searchbox{
+    width: 600px;
+    height: 60px;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#language{
+    height: 50px;
+    width: 55px;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+#language:hover{
+    border-color: white;
+}   
+#account{
+    height: 55px;
+    width: 141px;
+    position: relative;
+    top: 3px;
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#account:hover{
+    border-color: white;
+}
+#order{
+    height: 55px;
+    width: 76px;
+    background-color: black;
+    border: 2px solid black;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+#order:hover{
+    border-color: white;
+}
+#cart{
+    height: 55px;
+    width: 130px;
+    background-color: black;
+    border: 2px solid black;
+    position: relative;
+    top: 3px;
+    display: flex;
+    cursor: pointer;
+}
+#cart:hover{
+    border-color: white;
+}
+#loclogo{
+    height: 40px;
+    width: 35px;
+    background-color: blueviolet;
+    position: relative;
+    top: 5px;
+    background-image: url(locationlogo.jpg);
+    background-size: cover;
+    background-position: 50%;
+    
+}
+#letter2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    left: 4px;
+    color: white;
+}
+#flaglogo{
+    height: 30px;
+    width: 35px;
+    background-color: brown;
+    position: relative;
+    top: 15px;
+    background-image: url(indiaflag.jpeg);
+    background-size: cover;
+
+}
+#lng{
+    position: relative;
+    right: 2px;
+    top: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#acc{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 7px;
+    left: 9px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ret{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cartlogo{
+    height: 50px;
+    width: 70px;
+    background-color: brown;
+    position: relative;
+    top: 3px;
+    left: 1px;
+    background-image: url(cartlogo.jpg);
+    background-size: cover;
+    background-position: 50%;
+    
+
+}
+#cartlet{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 18px;
+    right: 15px;
+}
+#all{
+    height: 45px;
+    width: 55px;
+    background-color: rgba(205, 205, 205,0.5);
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+     
+}
+#all:hover{
+    background-color: gray;
+}
+#search{
+    height: 45px;
+    width: 500px;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#searchlogo{
+    height: 45px;
+    width: 45px;
+    background-color: #febd69;
+    border-radius: 4px;
+    background-image: url(searchlogo.png);
+    background-size: cover;
+    background-position: 50%;
+}
+ #symbol{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    left: 10px;
+    top: 15px;
+    background-color: rgb(205, 205, 205);
+    color: gray;
+    cursor: pointer;
+
+ }
+
+ #al{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 14px;
+    left: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #searchengine{
+    height: 40px;
+    width: 492px;
+    border-radius: 5px;
+    position: relative;
+     bottom: 1px;
+     right: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 3px solid black;
+ }
+ #searchengine:hover{
+    border-color: orange;
+     
+ }
+ #sub{
+    height: 45px;
+    width: 45px;
+    background-color: #febd69;
+    border-radius: 4px;
+    background-image: url(searchlogo.png);
+    background-size: cover;
+    background-position: 50%;
+    color: rgba(254, 189, 105, 0);
+    border: 2px solid black;
+    cursor: pointer;
+ }
+ #sub:hover{
+    border-color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(255, 255, 0, 0.1);
+}
+#top{
+    height: 40px;
+    width: 100%;
+    background-color: #37475a;
+}
+#backimg{
+    height: 600px;
+    width: 100%;
+    background-color: pink;
+    background-image: url(amazonmain.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#boxA{
+    height: 420px;
+    width: 306px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    top: 300px;
+}
+#boxB{
+    height: 420px;
+    width: 306px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    top: 300px;
+}
+#boxC{
+    height: 420px;
+    width: 306px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    top: 300px;
+}
+#boxD{
+    height: 420px;
+    width: 306px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    top: 300px;
+}
+.last{
+    height: 530px;
+    width: 100%;
+    background-color: #FFdbbb;
+}
+.middle{
+    height: 200px;
+    width: 100%;
+    background-color: #ff9e3d;
+    background-image: url(middlebgamazon.webp);
+    z-index: 1;
+    border-top: 3px solid rgba(255, 69, 0, 1);
+    flex-direction: row;
+    justify-content: center;
+}
+#lastcontentZ{
+    height: 250px;
+    width: 97%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+#footerA{
+    height: 60px;
+    width: 100%;
+    background-color: #37475a;
+}
+#footerB{
+    height: 400px;
+    width: 100%;
+    background-color: #232f3e;
+}
+#footerC{
+    height: 363px;
+    width: 100%;
+    background-color: #131a22;
+}
+#thirdline{
+    height: 40px;
+    width: 96.3%;;
+    background-color: white;
+    position: relative;
+    top: 280px;
+    left: 28px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#thirdlinelet{
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+#thirdlineanchor{
+    color: #007eb9;
+    text-decoration: none;
+
+}
+#gaming{
+    height: 30px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    left: 25px;
+    top: 17px;
+}
+#gamlet{
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 3px;
+}
+#gamingpic{
+    height: 370px;
+    width: 306px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#ga1{
+    height: 160px;
+    width: 140px;
+    background-color: white;
+    background-image: url(gamingaccesories1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+}
+#ga2{
+    height: 160px;
+    width: 165px;
+    background-color: yellowgreen;
+    background-image: url(gamingaccesories3.avif);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+}
+#ga3{
+    height: 150px;
+    width: 152px;
+    background-color: yellow;
+    background-image: url(gamingaccesories2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#ga4{
+    height: 150px;
+    width: 152px;
+    background-color: yellowgreen;
+    background-image: url(gamingaccesories4.avif);
+    background-size: cover;
+    background-position: 50%;
+}
+#essential{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+#essentiallet{
+    margin: 0;
+    font-size: 19.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+}
+#essentialpic{
+    height: 370px;
+    width: 306px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#e1{
+    height: 100px;
+    width: 136px;
+    background-color: white;
+    background-image: url(essential1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+    border: 2px solid white;
+}
+#e2{
+    height: 100px;
+    width: 161px;
+    background-color: yellowgreen;
+    background-image: url(essential2.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+    border: 2px solid white;
+}
+#e3{
+    height: 150px;
+    width: 148px;
+    background-color: yellow;
+    background-image: url(essential3.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 10px;
+}
+#e4{
+    height: 130px;
+    width: 148px;
+    background-color: yellowgreen;
+    background-image: url(essential4.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 20px;
+}
+#fashiondeal{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+#shoplet{
+    margin: 0;
+    font-size: 19.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+}
+#fashionpic{
+    height: 370px;
+    width: 306px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#f1{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(f2.png);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+    border: 1px solid white;
+}
+#f2{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    background-image: url(f1.gif);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 19px;
+    border: 2px solid white;
+}
+#f3{
+    height: 120px;
+    width: 148px;
+    background-color: yellow;
+    background-image: url(f3.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 25px;
+}
+#f4{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    background-image: url(f4.jpg);
+    background-size: cover;
+    background-position: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 10px;
+}
+#gamedeal{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+#gamelet{
+    margin: 0;
+    font-size: 19.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+}
+#gamepic{
+    height: 370px;
+    width: 306px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#g1{
+    height: 300px;
+    width: 304px;
+    background-color: white;
+    background-image: url(gamepic.webp);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 20px;
+    border: 1px solid white;
+}
+#lastcontent{
+    height: 250px;
+    width: 97%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    border: 2px solid white;
+}
+#lastcontent:hover{
+    border-color: #131a22;
+}
+#lastcontentlet{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+}
+#lclet{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
+#lastcontentpic{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#b1{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    left: 2px;
+}
+#b2{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b3{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b3.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b4{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b5{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b5.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b6{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b6.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b7{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b7.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b8{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b8.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b9{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b9.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b10{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b10.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    right: 2px;
+}
+#lastcontentZ{
+    height: 250px;
+    width: 97%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 190px;
+    left: 20px;
+    border: 2px solid white;
+}
+#lastcontentZ:hover{
+    border-color: #131a22;
+}
+#lastcontentZlet{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+}
+#lcZlet{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
+#lastcontentZpic{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#b11{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b11.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    left: 2px;
+}
+#b12{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b12.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b13{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b13.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b14{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b14.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b15{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b15.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b16{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b16.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b17{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b17.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b18{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b18.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b19{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b19.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+#b20{
+    height: 200px;
+    width: 9%;
+    background-color: yellow;
+    border: 2px solid black;
+    background-image: url(b20.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    right: 2px;
+}
+#gototop{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#let{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footerBlast{
+    height: 300px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-start;
+    position: relative;
+    top: 80px;
+}
+ul{
+    margin: 0;
+    color: #dddddd;
+}
+#footerBlastlogo{
+    height: 100px;
+    width: 100%;
+    background-color: #232f3e;
+    position: relative;
+    bottom: 1px;
+    border-top: 2px gray solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#amlogo{
+    height: 70px;
+    width: 120px;
+    background-color: white;
+    background-image: url(amazonfooterlogo.png);
+    background-size: cover;
+    background-position: 50%;
+    border: 2px #131a22 solid;
+}
+#amlogo:hover{
+    border-color: orange;
+}
